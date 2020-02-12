@@ -1,0 +1,52 @@
+[
+    {
+        "product": "Melon",
+        "price": 25,
+        "img": "/image/melon.jpg"
+    },
+    {
+        "product": "Ananas",
+        "price": 29,
+        "img": "image/pineapple.jpg"
+    },
+    {
+        "product": "Kiwi",
+        "price": 8,
+        "img": "image/kiwi.jpg"
+    },
+    {
+        "product": "Mango",
+        "price": 10,
+        "img": "image/mango.jpg"
+    },
+    {
+        "product": "Banan",
+        "price": 5,
+        "img": "image/banana.jpg"
+    },
+    {
+        "product": "Vindruvor",
+        "price": 20,
+        "img": "image/grapes.jpg"
+    },
+    {
+        "product": "Apelsin",
+        "price": 11,
+        "img": "image/orange.jpg"
+    },
+    {
+        "product": "Passionsfrukt",
+        "price": 7,
+        "img": "image/passion_fruit.jpg"
+    },
+    {
+        "product": "Päron",
+        "price": 7,
+        "img": "image/pear.jpg"
+    },
+    {
+        "product": "Äpple",
+        "price": 5,
+        "img": "image/apple.jpg"
+    }
+]

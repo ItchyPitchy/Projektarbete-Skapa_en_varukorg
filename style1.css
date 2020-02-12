@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    background:  #F2EEE9;
+}
+nav {
+    display: block;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    background:  #F2EEE9;
+    z-index: 1;
+}
+header {
+ background-image: url(/image/food-photographer-jennifer-pallian-AZJjIlbZM60-unsplash.jpg);
+ height: 600px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ /* position: sticky;
+ top: -500px;
+ z-index: 1; */
+
+}
+
+
+section {
+    display: grid;
+    grid-template: 1fr / 1fr 400px;
+    background-image: url(/image/bodyBack2.jpg)
+
+}
+
+.card-img-top img {
+    height: 380px;
+    /* justify-content: center; */
+ } 
+/* frukt bild */
+.card img{
+    
+    object-fit: contain;
+    width: 60%;
+    padding: 20px;
+
+}
+
+/*Fruitic  */
+h1 {
+    
+    width: 50%;
+    color: #ffd700;
+    padding-left: 70px;
+    padding-top: 200px;
+    font-size: 80px;
+    font-family: 'Playfair Display', serif;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+    /* top: -200px; */
+    top: -13rem;
+    
+   
+}
+/* Texten i header */
+h2{
+    padding-left: 10px;
+    margin-top: -15px;
+    width: 500px;
+    margin-left: 30px;
+    color: #ffd700;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+ 
+}
+/* Frukt namn */
+h3 {
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    margin-top: -10px;
+    font-weight: bold;
+}
+/* produkter */
+#etiquette-wrapper{
+    padding-top: 90px;
+    
+}
+/* Frukt box */
+.card {
+    margin: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 400px;
+    text-align: center;
+    align-items: center;
+   
+}
+/* inputruta */
+.inputQuant {
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    background: #eeebe9ad;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 25px;
+
+}
+.card-text {
+    font-size: 20px;
+}
+/* Lägga till knappen */
+.addBtn {
+    border-radius: 5px;
+    padding: 0;
+    margin-left: 0px;
+    width: 245px;
+    height: 40px;
+    background: rgb(30, 179, 30);
+}
+
+/* varukorg */
+.cart {
+    position: sticky;
+    top: 100px;
+    /* background: whitesmoke; */
+    background: white;
+    /* border: 3px solid rgb(201, 199, 199); */
+    border: 3px solid rgb(59, 59, 59);
+    border-radius: 10px;
+    padding-bottom: 30px;
+
+}
+/* kundvagn */
+#toggle-cart-btn {
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 60px;
+    z-index: 10;
+  
+}
+/* Delete hela varukorgen */
+#emptyCartBtn {
+    border-radius: 50px;
+    /* background: rgb(241, 106, 106); */
+    height: 30px;
+    margin: 20px 20px;
+    font: bolder;
+    font-size: 17px;
+    color: red;
+    border: 1px solid black;
+    margin-left: 80px;
+}
+
+/* Delete knappar */
+.dltBtn {
+    background: rgb(238, 123, 123);
+    border-radius: 100px;
+    padding: 0;
+    margin-left: 27px;
+    padding: 5px;
+}
+
+.rubrik {
+    background: rgba(72, 160, 182, 0.719);
+    
+}
+
+h4 {
+    background: rgb(59, 59, 59);
+    color: white;
+    margin: 0;
+    padding: 10px;
+    font-size: 25px;
+}
+
+/* bekräfta */
+.order {
+    background: rgb(30, 179, 30);
+    border-radius: 80px;
+    margin-left: 40px;
+    color: white;
+    padding: 12px 30px;
+    margin-bottom: 0px;
+    font-size: 20px;
+
+}
+
+#total {
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+

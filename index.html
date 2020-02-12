@@ -1,26 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Dog API Demo</h1>
-    <ol></ol>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script>
 
-    $(document).ready(function(){
-        let endpoint = "https://dog.ceo/api/breeds/list/all"
-        $.getJSON(endpoint, function(dogs) {
-            $.each(dogs.message, function(breed, subBreed) {
-                $('ol').append(`<li>${breed}</li>`)
-            })
-        })
-    })
-    
-    </script>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="style1.css" />
+    <title>Fruitic</title>
+</head>
+
+<body>
+    <nav>
+        <img id="toggle-cart-btn" src="./image/supermarket.svg"></button>
+    </nav>
+    <header>
+        <h1>Fruitic.se</h1>
+        <h2>Sveriges största utbud av frukter</h2>
+    </header>
+    <section>
+        <ul id="etiquette-wrapper" class="d-flex justify-content-center flex-wrap"></ul>
+        <div class="cart-wrapper">
+            <div class="cart">
+                <h4>Varukorg</h4>
+                <table class="table table-striped table-hover table-bordered">
+                    <thead class=rubrik>
+                        <tr>
+                            <th>Produkt</th>
+                            <th>Antal</th>
+                            <th>Pris</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="cart-items-holder"></tbody>
+                </table>
+                <span id="total">Totalt:</span>
+                <button id="emptyCartBtn">Töm vaukorg</button>
+                <a class="order" href="yourOrder.html">Beställ</a>
+            </div>
+        </div>
+    </section>
+    <a href="dataBase.json">JSON</a>
+    <script src="main.js"></script>
 </body>
+
 </html>

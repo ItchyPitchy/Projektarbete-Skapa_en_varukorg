@@ -1,0 +1,96 @@
+img {
+    width: 200px;
+    margin: 10px;
+}
+
+body{
+    background-image: url(/image/bodyBack2.jpg);
+}
+
+header {
+    background-image: url(/image/food-photographer-jennifer-pallian-AZJjIlbZM60-unsplash.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+h1 {
+    width: 50%;
+    color: #ffd700;
+    padding-left: 70px;
+    padding-top: 200px;
+    font-size: 80px;
+    font-family: 'Playfair Display', serif;
+   
+}
+
+h2{
+    padding-left: 10px;
+    margin-top: -15px;
+    width: 500px;
+    margin-left: 30px;
+    color: #ffd700;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+ 
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    margin: 80px;
+    text-align: center;
+}
+
+table{
+    background: white;
+    border: 1px solid rgba(128, 128, 128, 0.726);
+    padding: 10px;
+    box-shadow: 8px 13px #a8a7a767;
+    margin-bottom: 30px;
+
+}
+
+th {
+    height: 50px;
+    background: rgba(72, 160, 182, 0.719);
+    font-size: 20px;
+}
+
+tr{ 
+    border: 1px solid rgba(128, 128, 128, 0.726);
+}
+
+td{ 
+    border: 1px solid rgba(128, 128, 128, 0.726);
+} 
+
+.fruitImg {
+    text-align: left;
+    padding-left: 45px;
+}
+
+tbody{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+span{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 68%;
+}
+
+button {
+    font-family: 'Playfair Display', serif;
+    border-radius: 9px;
+    margin: 40px 0 70px 45%;
+    width: 300px;
+    height: 62px;
+    background: rgb(30, 179, 30);
+    font-size: 35px;
+    color: white;   
+}
+
+
