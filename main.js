@@ -55,12 +55,12 @@ $(document).ready(function () {
             const cartArr = JSON.parse(localStorage.getItem("cartArr")); // hämta nuvarande localStorage
 
             if (duplicateExists(cartArr, product)) { // om den hittar en produkt-dublett
-                if (confirm("Vill du ersätta? OK=ERSÄTT  AVBRYT=LÄGG IHOP")) {
-                    replaceProduct(cartArr, product, qty, price); // ersätt den nya produktbeställningen med den gamla, i localStorage
+                if (confirm("Produkt finns redan i varukorgen. Vill du lägga till antal? \n OK = Lägg till antal \n Cancel = Ersätt antal")) {
+                    mergeProduct(cartArr, product, qty, price); // lägg ihop dem i localStorage
                     createCart() // rita ut varukorgen utifrån localStorage
                     showMessage("Produkten har lagts till i varukorgen.", "success");
                 } else {
-                    mergeProduct(cartArr, product, qty, price); // lägg ihop dem i localStorage
+                    replaceProduct(cartArr, product, qty, price); // ersätt den nya produktbeställningen med den gamla, i localStorage
                     createCart() // rita ut varukorgen utifrån localStorage
                     showMessage("Produkten har lagts till i varukorgen.", "success");
                 };
